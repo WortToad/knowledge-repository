@@ -32,9 +32,11 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
+          routeBasePath: "/",
         },
+        blog: false,
         theme: {
-          customCss: "./src/css/custom.css",
+          customCss: "./src/custom.css",
         },
       } satisfies Preset.Options,
     ],
@@ -48,28 +50,7 @@ const config: Config = {
         alt: "My Site Logo",
         src: "img/logo.svg",
       },
-      items: [
-        {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
-          position: "left",
-          label: "Tutorial",
-        },
-      ],
-    },
-    footer: {
-      style: "dark",
-      links: [
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "Tutorial",
-              to: "/docs/intro",
-            },
-          ],
-        },
-      ],
+      items: [],
     },
     prism: {
       theme: prismThemes.github,
