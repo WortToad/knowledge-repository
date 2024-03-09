@@ -17,6 +17,7 @@
 	"dependencies": {
 		"@docusaurus/core": "3.1.1",
 		"@docusaurus/preset-classic": "3.1.1",
+		"@docusaurus/theme-classic": "^3.1.1",
 		"@mdx-js/react": "^3.0.0",
 		"clsx": "^2.0.0",
 		"prism-react-renderer": "^2.3.0",
@@ -28,10 +29,15 @@
 		"@docusaurus/module-type-aliases": "3.1.1",
 		"@docusaurus/tsconfig": "3.1.1",
 		"@docusaurus/types": "3.1.1",
+		"@types/node": "^20.11.25",
 		"typescript": "~5.2.2"
 	},
 	"browserslist": {
-		"production": [">0.5%", "not dead", "not op_mini all"],
+		"production": [
+			">0.5%",
+			"not dead",
+			"not op_mini all"
+		],
 		"development": [
 			"last 3 chrome version",
 			"last 3 firefox version",
